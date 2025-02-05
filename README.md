@@ -5,6 +5,7 @@ _Supportive project for the framework to help me build other related application
 ## TL;DR version
 > [!NOTE]  
 > [SFIA framework](https://sfia-online.org/en/sfia-9) as a platform via downloadable [SQLite database](https://github.com/jankudev/sfia-tools/releases/download/v0.0.1/sfia-sqlite.db) and/or a REST API.
+> Always read and respect the [Using and licensing SFIA](https://sfia-online.org/en/about-sfia/licensing-sfia/using-and-licensing-sfia) policy !
 
 ## Motivation
 
