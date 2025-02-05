@@ -45,7 +45,7 @@ risk.
 🚀 Anyways if you find this useful in any way, please let me know and I'll be happy to help you with any questions or
 improvements - let's get in touch on [LinkedIN::jankutomas](https://www.linkedin.com/in/jankutomas/).
 
-☕ If you see value in what I've done and would like to support me, you can buy me a coffee at [BuyMeACoffee::jankutomas](https://buymeacoffee.com/jankutomas).
+☕ If you see value in what I've done and would like to support me in my learning, you can "buy me a coffee" at [BuyMeACoffee::jankutomas](https://buymeacoffee.com/jankutomas).
 
 #### TODOs (just notes for myself - possibly move to 'Github - issues' later on)
 - [ ] create a MongoDB database, parametrize the scraper to choose SQLite or MongoDB for persistence
