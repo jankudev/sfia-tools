@@ -1,0 +1,30 @@
+# version spec. is being obsoleted (no longer required by Docker Compose, can be used for backward compatibility)
+# see https://docs.docker.com/reference/compose-file/version-and-name/
+
+services:
+  # db preparation service
+  data-scraper:
+    container_name: sfia-data-scraper
+    image: jankudev/sfia-data-scraper:0.0.1
+    build:
+      context: ..
+      dockerfile: docker/data-scraper/Dockerfile
+    volumes:
+      - db-data:/app/data
+
+  # api service exposing the scraped db
+  api-service:
+    container_name: sfia-api-service
+    image: jankudev/sfia-api-service:0.0.1
+    build:
+      context: ..
+      dockerfile: docker/api-service/Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - db-data:/app/data
+    depends_on:
+      - data-scraper
+
+volumes:
+  db-data:
