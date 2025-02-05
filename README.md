@@ -40,7 +40,6 @@ improvements - let's get in touch on [LinkedIN::jankutomas](https://www.linkedin
 ☕ If you see value in what I've done and would like to support me, you can buy me a coffee at [BuyMeACoffee::jankutomas](https://buymeacoffee.com/jankutomas).
 
 #### TODOs (just notes for myself - possibly move to 'Github - issues' later on)
-- [ ] create a tag after the initial commit, build and upload db with tag as artefact, add link to the artefact in README.md
 - [ ] create a MongoDB database, parametrize the scraper to choose SQLite or MongoDB for persistence
 - [ ] improve significantly on documentation of generated OpenAPI in `api-service`
 
@@ -81,6 +80,7 @@ Other generic entities somehow separate, but relating indirectly to the individu
 #### Database artefact
 
 So you needn't download, build and run the scraper yourself, I've included the database file as an artefact to this repository.
+The DB artefact can be downloaded from the [releases page - v0.0.1 (snapshot 2024-02-05)](https://github.com/jankudev/sfia-tools/releases/tag/v0.0.1).
 
 #### Database ER diagram (included)
 ```mermaid
