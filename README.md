@@ -43,7 +43,8 @@ improvements - let's get in touch on [LinkedIN::jankutomas](https://www.linkedin
 
 ☕ If you see value in what I've done and would like to support me in my learning, you can "buy me a coffee" at [BuyMeACoffee::jankutomas](https://buymeacoffee.com/jankutomas).
 
-#### TODOs (just notes for myself - possibly move to 'Github - issues' later on)
+#### TODOs (backlog)
+(just notes for myself - possibly move to 'Github - issues' later on)
 
 Functional improvements:
 - [ ] add categorization of skills based on the [full framework view](https://sfia-online.org/en/sfia-9/sfia-views/full-framework-view/?path=/glance)
