@@ -44,9 +44,22 @@ improvements - let's get in touch on [LinkedIN::jankutomas](https://www.linkedin
 ☕ If you see value in what I've done and would like to support me in my learning, you can "buy me a coffee" at [BuyMeACoffee::jankutomas](https://buymeacoffee.com/jankutomas).
 
 #### TODOs (just notes for myself - possibly move to 'Github - issues' later on)
+
+Functional improvements:
 - [ ] add categorization of skills based on the [full framework view](https://sfia-online.org/en/sfia-9/sfia-views/full-framework-view/?path=/glance)
+- [ ] scrape and save as JSON file for processing with jq + implement reader (read all the in-memory objects from JSON to allow for persistence from JSON input source)
 - [ ] create a MongoDB database, parametrize the scraper to choose SQLite or MongoDB for persistence
 - [ ] improve significantly on documentation of generated OpenAPI in `api-service`
+
+Other improvements:
+- [ ] Github Actions CI - run tests
+- [ ] scraper integration test + cron gh-action (run the scraper weekly)
+- [ ] deploy experimentaly the `api-service` and expose as a service (on cloud provider, as a showcase so implement strict rate-limits!)
+- [ ] Github Actions CD - deploy the showcase `api-service` with each new tag (release please?)
+
+Product backlog / ideas:
+- [ ] simple UI app - skill-matrix for managing team skill/capability with the SFIA db as a source
+- [ ] AI assistant service integration to help createa profiles and career paths (try out RAG with some AI provider like OpenAI / Anthropic)
 
 ## Architecture
 
