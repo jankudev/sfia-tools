@@ -5,7 +5,8 @@ _Supportive project for the framework to help me build other related application
 ## TL;DR version
 > [!NOTE]  
 > [SFIA framework](https://sfia-online.org/en/sfia-9) as a platform via downloadable [SQLite database](https://github.com/jankudev/sfia-tools/releases/download/v0.0.1/sfia-sqlite.db) and/or a REST API.
-> Always read and respect the [Using and licensing SFIA](https://sfia-online.org/en/about-sfia/licensing-sfia/using-and-licensing-sfia) policy !
+>
+> Always read and please respect the [Using and licensing SFIA](https://sfia-online.org/en/about-sfia/licensing-sfia/using-and-licensing-sfia) policy !
 
 This project is meant as a supportive service to avoid continuous scraping of the SFIA official website and for learning purposes.
 Any use should adhere to the official licensing policy of the SFIA Foundation.
@@ -22,12 +23,7 @@ the community as I see great value in it (and got frustrated by the lack of it ð
 ### License
 
 SFIA is a non-profit organisation and their licensing policy reflects that as is stated on their website:
-> SFIA remains free of charge for most non-commercial use
->
-> - The SFIA Foundation is a not-for-profit organisation
-> - There is a modest licence fee for large organisations using SFIA and for organisations that use SFIA for commercial purposes
-> - The licence fee supports the continued development of the framework and ecosystem support
-> - Organisations and individuals who contribute a licence fee can be proud that they are helping the continued development of the industry
+> For personal career development and for the majority of internal use for staff management and workforce development, SFIA is available free of charge. Other use may require different licences which may incur a modest fee.
 
 For more details please refer to the official [Using and licensing SFIA](https://sfia-online.org/en/about-sfia/licensing-sfia/using-and-licensing-sfia)
 page and please respect their licensing policy.
